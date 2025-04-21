@@ -1,0 +1,14 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://aphrodite.gmanetwork.com/entertainment/photos/photo/in_photos__the_best_dingdong_dantes_memes_bingbong_dantes_1578366959.jpg');
+    background-size: cover;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+}
+
+.btn {
+    width: 45%;
+}

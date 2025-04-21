@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grading System</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
+      <h4 class="text-center mb-4 text-primary">Grading System</h4>
+  
+      <form>
+        <div class="form-group">
+          <label for="n-value">Name:</label>
+          <input type="text" class="form-control" id="n-value" placeholder="Enter your name" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="g-value">Grade:</label>
+          <input type="number" class="form-control" id="g-value" placeholder="Enter your grade" required>
+        </div>
+  
+        <div class="d-flex justify-content-between mt-4">
+          <button type="button" class="btn btn-secondary" onclick="window.location.reload()">Reload</button>
+          <button type="button" class="btn btn-success" onclick="gradingSystem()">Check Grade</button>
+        </div>
+      </form>
+    </div>
+  </body>  
+</html>
